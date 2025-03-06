@@ -127,3 +127,4 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'blog/static')
     
 ]
+ALLOWED_HOST =['localhost','djangodespliegu-production.up.railway.app']
