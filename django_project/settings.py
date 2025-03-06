@@ -25,7 +25,13 @@ SECRET_KEY = 'django-insecure-zp)c_7w#crwzu009v-c&3x$^-zoyo7^y5!4dll8jm92qy)c8!x
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+
+ALLOWED_HOSTS = [
+    'djangodespliegu-production.up.railway.app',
+    'localhost',
+    '127.0.0.1',
+    # Otros dominios o direcciones IP que necesites agregar
+]
 
 
 # Application definition
@@ -127,4 +133,4 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'blog/static')
     
 ]
-ALLOWED_HOST =['localhost','djangodespliegu-production.up.railway.app']
+
